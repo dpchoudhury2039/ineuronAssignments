@@ -1,0 +1,35 @@
+
+List = []
+repeated_letters = 'xyz'
+for char in repeated_letters:
+    for n in range(1, 5):
+        List.append(char * n)
+print(List)
+
+List = []
+for n in range(1, 5):
+    for char in repeated_letters:
+        List.append(char * n)
+print(List)
+
+List = []
+existingList = [2, 3, 4, 5]
+
+for x in existingList[:3]:
+    for y in range(3):
+        List.append([x + y])
+
+for x in existingList:
+    subList = []
+    for y in range(4):
+        subList.append(x + y)
+    List.append(subList)
+# Outputting the results
+print(List)
+
+existingList = [1, 2, 3]
+List = []
+for x in existingList:
+    for y in existingList:
+        List.append((y, x))
+print("List 5:", List)
