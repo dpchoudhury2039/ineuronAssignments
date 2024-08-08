@@ -1,0 +1,14 @@
+Interpretation
+Gaurav:
+Highest probability of solving exactly 6 questions correctly, indicating he often solves a majority due to his high correction rate.
+
+Barakha:
+Highest probability of solving exactly 6 questions correctly, showing that she achieves better results as the average number of attempts is higher, compensating for her lower correction rate.
+Both Students:
+The probability of solving exactly 5 questions correctly is significant but not the peak for either student.
+
+Governing Factors
+The two main factors affecting their ability to solve questions correctly are:
+
+1. Correction Rate: The probability of solving each question correctly.
+2. Number of Questions Attempted: More attempts can balance a lower correction rate and vice versa.
